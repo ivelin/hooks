@@ -30,7 +30,7 @@ jobs:
         run: pnpm i
 
       - name: Publish to npm
-        uses: seek-oss/changesets-snapshot@v0
+        uses: seek-oss/changesets-snapshot@v1
         with:
           pre-publish: pnpm build
         env:
